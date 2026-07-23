@@ -1,0 +1,11 @@
+{
+  "name": "catalogo-ipath-github-pages-release-publico",
+  "version": "4.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Catálogo municipal iPath público optimizado para GitHub Pages y assets planos en un GitHub Release.",
+  "scripts": {
+    "check": "node tools/check-repo.mjs",
+    "check:syntax": "node --check app.js && node --check release-config.js && node --check release-assets.js && node --check security-client.js"
+  }
+}
